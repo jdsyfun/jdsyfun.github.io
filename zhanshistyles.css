@@ -114,7 +114,7 @@
 
 }
 .content .login-wrapper .right-login-form .form-wrapper h1{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
 }
 .content .login-wrapper .right-login-form .form-wrapper .input-items{
@@ -122,8 +122,8 @@
 }
 .content .login-wrapper .right-login-form .form-wrapper .input-tips{
     display: inline-block;
-    font-weight: 500;
-    font-size: 17px;
+    font-weight: 400;
+    font-size: 14px;
     margin: 10px 0;
 }
 .inputs{

@@ -48,7 +48,7 @@ img{
     text-align: center;
 }
 h1{
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 500;
     position: relative;
     top: 30%;
@@ -91,7 +91,7 @@ a{
     background-color:rgb(127, 194, 236);
     background : linear-gradient( to right,rgb(89, 194, 243) 40%,#74d0ec,#a0d7e8);
     border-radius: 10px;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: 500;
     position: relative;
         top: 2%;
@@ -111,7 +111,7 @@ a{
         border-style: none;
         background-color:rgb(255, 255, 255);
         letter-spacing: 0.3em;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         position: relative;
             top: 6%;

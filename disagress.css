@@ -62,7 +62,7 @@
      
 }
 .shang h1{
-    font-size: 35px;
+    font-size: 22px;
     text-align: center;
     letter-spacing: 2px;
     
@@ -77,7 +77,7 @@
 
 }
 .zhong h2{
-    font-size: 25px;
+    font-size: 18px;
     text-align: left;
     text-indent: 1em;
     letter-spacing: 0px;
@@ -99,7 +99,7 @@
     background-color: rgb(218, 209, 244);
     border-radius: 10px;
     color: #fff;
-    font-size: 18px;
+    font-size: 15px;
     /*鼠标放上变成手指*/
     cursor: pointer; 
     position:relative;

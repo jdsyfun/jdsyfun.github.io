@@ -36,11 +36,11 @@
         
             }
             .lianjie h2{
-                font-size: 20px;
-                font-weight: 500;
+                font-size: 18px;
+                font-weight: 200;
                 text-align: left;
                 color: #020202;
-                -webkit-text-stroke: 0.7px #080808;
+                -webkit-text-stroke: 0.6px #080808;
                 letter-spacing: 2px;
                 position: relative;
                 top: 50%;
@@ -57,7 +57,7 @@
         }
         .title h1{
             font-size: 25px;
-            font-weight: 500;
+            font-weight: 300;
             color: #000;
             -webkit-text-stroke: 0.7px #080808;
             /*设置页面背景颜色*/
@@ -142,7 +142,7 @@
             }
             .txt h1{
                 font-size: 18px;
-                font-weight: 600;
+                font-weight: 500;
                 color:rgb(133, 126, 126);
                 display: inline-block;
                 position: absolute;
@@ -152,7 +152,7 @@
             }
             .txt h2{
                 font-size: 20px;
-                font-weight: 600;
+                font-weight: 500;
                 
                 color:rgb(133, 126, 126);
                 position: absolute;
@@ -193,8 +193,8 @@
         }
 
         .user h1{
-            font-size: 16px;
-            font-weight: 600;
+            font-size: 15px;
+            font-weight: 500;
             color:rgb(133, 126, 126);
             display: inline-block;
             position: absolute;
@@ -205,8 +205,8 @@
 
         }
         .change h2{
-            font-size: 18px;
-            font-weight: 600;
+            font-size: 16px;
+            font-weight: 500;
             color:rgb(255, 187, 0);
             display: inline-block;
             position: absolute;
@@ -238,8 +238,8 @@
     background-color: #eab60b;
     background : linear-gradient( to right,orange 40%,#fdc201,#ffcc00);
     border-radius: 60px;
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 23px;
+    font-weight: 400;
     position: relative;
         top: 20%;
         left: 0%;

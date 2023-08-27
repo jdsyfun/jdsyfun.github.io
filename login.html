@@ -1,22 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <title>授权界面</title>
+    <meta name="viewport"content="width=device-width, height=device-height,initial-scale=1.0,minimum-scale=1,maxium-scale=1,user-scalable=no,viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable"content="yes">
+    <meta name="apple-touch-fullscreen"content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style"content="black">
+    <title>实验对象与授权介绍</title>
+    <link rel="stylesheet" href="./login.css">
+
 </head>
 <body>
-
-   <h1>using！APP介绍其实是啊书五点半</h1>
-   <h2>实验介绍！！！！还是说</h2>
-   <h2>实验须知</h2>
-   <h3>APP申请使用，您可以选择使用您的新浪微博账号进行快捷登录，该APP将访问您的公开资料，好友信息及部分权限，用于开发新产品和服务，或与其他业务用户进行信息交易等。成功登录并授权后，您可以正常使用APP所提供的各种免费服务，及____元代金券。</h3>
-     <h4>如果您同意，请点击下方按钮开始体验！</h4>
-     <button class="btn"> <a href="agress.html">同意</a></a></button>
-     <button class="btn"> <a href="disagress.html">拒绝</a></a></button>
-   
-
-
-
+  <div class="all">   
+    <div class="header">
+      <div class="glass">
+        <div class="tips">
+          <div class="title">
+            <h1>一项用户行为实验</h1>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <div class="box">
+      <h2>关于APP“use”的介绍</h2>
+        <div class="a">
+          <div class="b"><img src="./1.jpg"></div>
+          <div class="b"><img src="./2.jpg"></div>
+          <div class="b"><img src="./3.jpg"></div>
+          <div class="b"><img src="./4.jpg"></div>
+          <div class="b"><img src="./5.jpg"></div>
+          <div class="b"><img src="./6.jpg"></div>
+        </div>
+    </div>
+    <div class="mixer">
+      <h1>APP申请使用</h1>
+      <h3>您可以选择使用您的新浪微博账号进行快捷登录，该APP将访问您的公开资料，好友信息及部分权限，用于开发新产品和服务，或与其他业务用户进行信息交易等。成功登录并授权后，您可以正常使用APP所提供的各种免费服务，及价值10元的代金券。</h3>
+      <h4>如愿尝试，请点击下方按钮开始体验！</h4>
+    </div>
+    <div class="footer">
+      <button class="btn"> <a href="./zhanshi.html">开始体验</a></a></button>
+    </div>
+    </div>
+  </div> 
 
 </body>
+<script>
+  const left = document.querySelector(".left")
+  const right = document.querySelector(".right")
+  const main = document.querySelector(".main")
+  var index = 0
+  function add() {
+      if (index < 1) {
+          index = 2
+      } else {
+          index--
+      }
+  }
+  function desc() {
+      if (index > 1) {
+          index = 0
+      } else {
+          index++
+      }
+  }
+  function position() {
+      main.style.left = (index * -100) + "%" 
+  }
+  left.addEventListener("click", () => {
+      add()
+      position()
+      console.log(index)
+  }) 
+  right.addEventListener("click", () => {
+      desc()
+      position()
+      console.log(index)
+  }) 
+
+</script>
 </html>

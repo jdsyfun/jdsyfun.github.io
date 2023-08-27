@@ -1,29 +1,337 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>一项实验</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport"content="width=device-width, height=device-height,initial-scale=1.0,minimum-scale=1,maxium-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable"content="yes">
+<meta name="apple-touch-fullscreen"content="yes">
+<meta name="apple-mobile-web-app-status-bar-style"content="black">
+<title>实验PC</title>
+<style>
+* {
+padding: 0;
+margin: 0;
+
+}
+    
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: rgb(198, 167, 236);
+
+}
+    
+.shell {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height: 100%;
+    box-shadow: 0 0.5rem 2rem rgba(194, 29, 29, 0.1);
+    background-color: rgb(198, 167, 236);
+    color: #000;
+    overflow: hidden;
+}
+
+.ocean {
+    width: 100%;
+    height: 22%;
+    background-color: rgb(235, 224, 159);
+    /*设置页面背景颜色*/
+    background-image:url(1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+    .ocean-text {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    color: #000;
+    transform: translate(7%, 90%);
+    -webkit-text-stroke: 1px #080808;
+}
+    
+.content {
+position: relative;
+width: 100%;
+height: 78%;
+display: flex;
+justify-content: space-between;
+}
+.left {
+width: 40px;
+height: 40px;            
+background-image: url("./left.png");            
+background-size: cover;
+position: absolute;
+top: 50%;
+left: 0.5%;
+transform: translateY(-50%);
+z-index: 999;
+opacity: 0.5;            
+}
+
+.right {
+width: 40px;
+height: 40px;
+background-image: url("./right.png");
+background-size: cover;
+position: absolute;
+top: 50%;
+right: 0.5%;
+transform: translateY(-50%);
+z-index: 999;
+}
+
+.main {
+width: 300%;
+height: 99%;
+position: relative;
+display: flex;
+left: 0;
+transition: .3s;
+}
+
+.box1 {
+width: 100vw;
+height: 100%;
+position: relative;
+text-align: center;
+
+}
+.box2 {
+width: 100vw;
+height: 100%;
+position: relative;
+text-align: center;
+}
+.box3 {
+width: 100vw;
+height: 100%;
+position: relative;
+text-align: center;
+}
+
+.title {
+    width: 100%;
+    position: relative;
+    top:3%;
+    transform: translate(0,0%);
+    left: 30px;
+}
+.title h1 {
+    font-size: 28px;
+    font-weight: 400;
+    text-align:left;
+    margin-bottom: 2px;
+    color: #f5f7fa;
+}
+.title h5 {
+    text-align:left ;
+    font-size: 20px;
+    font-weight: 350;
+    text-align:left;
+    color: #f5f7fa;
+
+}
+.txt{
+    width: 78%;
+    height: 60%;
+    /*设置页面背景颜色*/
+    background-color:rgba(225, 225, 225, 0.5);
+    border-radius: 40px;
+    /*设置绝position: relative; 对定位*/
+    position: relative;
+    left: 11%;
+    top: 6%;
+    /*设置弹性布局*/
+    display: flex;
+}
+.article h2{
+    text-align:left ;
+    font-size: 20px;
+    font-weight: 400;
+    text-align:left;
+    text-indent: 2em;
+    margin-bottom: 55px;
+    color:#000;
+    margin: 10px 10px ;
+}
+.article h3{
+    text-align:left ;
+    font-size: 15px;
+    font-weight: 400;
+    text-align:left;
+    margin-bottom: 2px;
+    color: #000;
+}
+.zuihou{
+    width: 100%;
+    height: 20%;
+    position: relative;
+    top: 7%;
+    left: 0%;
+    display: flex;
+}
+.tupian1{
+    width: 50%;
+    height: 80%;
+    
+    
+    position:relative;
+    top: 20%;
+    left: 10%;
+    transform: translate(0%,0%); 
+   
+}
+.tupian1 img {
+    width: 60px;
+    height: 60px;
+    text-align: right;
+
+}
+.tupian2{
+    width: 50%;
+    height: 80%;
+    
+    position:relative;
+    top: 20%;
+    right: 10%;
+    
+}
+.tupian2 img {
+    width: 60px;
+    height: 60px;
+    text-align: left;
+}
+.btn {
+width: 65%;
+height: 35px;
+background-color: rgb(193, 180, 231);
+border-radius: 10px;
+color: #fff;
+font-size: 20px;
+/*鼠标放上变成手指margin: 10px 0;*/
+cursor: pointer;
+position:relative;
+top: 12%;
+left: 0%;
+transform: translate(0%,0%);     
+}
+a{
+    text-decoration: none;}
+
+
+</style>
 </head>
+
 <body>
-    <div class="box">
-        <div class="left">
 
+    <div class="shell">
+        <div class="ocean">
+            <div class="ocean-text">一项用户行为实验</div>
         </div>
-        <div class="right">
+        <div class="content">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="main">
+                <div class="box1">
+                    <div class="title">
+                        <h1> 01/实验介绍</h1>
+                        <h5> 请仔细阅读实验的简单介绍！</h5>
+                    </div>
+                    <div class="txt">
+                        <div class="article">
+                            <h2> 请您认真阅读每一页内容，并根据您的判断做出相应选择。谢谢配合！</h2>
+                        </div>
+                    </div>
+                    
+                        <button class="btn"> <a href="login.html">开始实验</a></a></button>
+                </div>
+                
 
+                <div class="box2">
+                    <div class="title">
+                       
+                        <h1>02/实验步骤</h1>
+                        <h5> 请您认真阅读，以便您后续操作！</h5>
+                    </div>
+                    <div class="txt">
+                        <div class="article">
+                          <h2>实验需要您进行一个全新app的体验，您可能需要面临一个登录授权的决策</h2>
+                        </div>
+                    </div>
+                    <button class="btn"> <a href="login.html">开始实验</a></a></button>
+                </div>
+
+                <div class="box3">
+                    
+                    <div class="title">
+                        
+                        <h1> 03/关于我们</h1>
+                        <h5> 如有疑问，可见下方说明！</h5>
+                    </div>
+                    <div class="txt">
+                        <div class="article">
+                            <h2>我们是来自郑州大学的研究团队</h2>
+                            <h3>如果有疑问，您可以扫描下方二维码，由我们工作人员解答</h3>                        
+                        </div>
+                    </div>
+                    <div class="zuihou">
+                        <div class="tupian1">
+                            <img src="微信二维码.png" alt="">
+                        </div>
+                        <div class="tupian2">
+                            <img src="qq二维码.jpg" alt="">
+                        </div>
+                    </div>  
+                  
+                </div>
+            </div>
         </div>
-
     </div>
-   <h1>一项关于垂直隐私问题的用户实验！</h1>
-   <h2>实验介绍，我不摘到</h2>
-   <h2>实验须知</h2>
-   <h3>您好！您现在看到的是一项关于垂直隐私的实验，我们为关注和解决垂直隐私问题而开展的本次调查，我们需要您的协助，谢谢！</h3>
-   <h3>垂直隐私是指用户在下载和使用app过程中由于各种原因，以各种方式被app服务提供方收集和使用个人信息过程中产生的隐私问题。</h3>
-   <h3>请您认真阅读每一页内容，并根据您的判断做出相应选择。谢谢配合！</h3>
-   <h4>实验需要您进行一个全新app的体验，您可能需要面临一个登录授权的决策</h4>
-   <h4>实验需要您的体验感受，以开展后续研究，请您在最后帮助完成相关反馈！谢谢！</h4>
-   <h4>如果您同意，请点击下方按钮进行实验！</h4>
-   <button class="btn"> <a href="zhanshi.html">开始实验！</a></a></button>
 
 </body>
+
+<script>
+    const left = document.querySelector(".left")
+    const right = document.querySelector(".right")
+    const main = document.querySelector(".main")
+    var index = 0
+    function add() {
+        if (index < 1) {
+            index = 2
+        } else {
+            index--
+        }
+    }
+    function desc() {
+        if (index > 1) {
+            index = 0
+        } else {
+            index++
+        }
+    }
+    function position() {
+        main.style.left = (index * -100) + "%" 
+    }
+    left.addEventListener("click", () => {
+        add()
+        position()
+        console.log(index)
+    }) 
+    right.addEventListener("click", () => {
+        desc()
+        position()
+        console.log(index)
+    }) 
+
+</script>
+
 </html>

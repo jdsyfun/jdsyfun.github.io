@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Aguazyuan",'Courier New', Courier, monospace;
+}
+
+.all{
+    /*设置页面窗口的宽度*/
+    width:100%;
+    /*设置页面窗口的高度*/
+    height:100%;
+    background-color: rgba(202, 202, 202, 0.532);
+    /*设置相对定位position: relative;*/
+    position:fixed ;
+    z-index: -1;
+    text-decoration: none;
+}
+.bj{
+    width:100%;
+    /*设置页面窗口的高度*/
+    height:100%;
+    background-color: rgba(202, 202, 202, 0.532);
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width:80%;
+    /*设置页面窗口的高度*/
+    height:50%;
+    background-color:white;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    border-radius: 20px;
+    text-align: center;
+}
+.top{
+    width:100%;
+    /*设置页面窗口的高度*/
+    height:17%;
+    background-color:rgb(127, 194, 236);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 27px;
+    font-weight: 500;
+    position: relative;
+    top: 30%;
+}
+.mid{
+    width:80%;
+    /*设置页面窗口的高度*/
+    height:60%;
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    top: 3%;
+    left: 10%;
+}
+h2{
+    font-size: 20px;
+    font-weight: 500;
+    text-indent: 2em;
+    text-align: left;
+}
+.foot{
+    width:100%;
+    /*设置页面窗口的高度*/
+    height:18%;
+    text-align: center;
+    background-color:white;
+    text-align: center;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    
+}
+a{
+    text-decoration: none;
+}
+.btn1{
+    text-align: center;
+    width: 80%;
+    height: 55%;
+    background-color:rgb(127, 194, 236);
+    background : linear-gradient( to right,rgb(89, 194, 243) 40%,#74d0ec,#a0d7e8);
+    border-radius: 10px;
+    font-size: 21px;
+    font-weight: 500;
+    position: relative;
+        top: 2%;
+        left: 0%;
+        transform: translate(0%,0%);
+    /*鼠标放上变成手指*/
+    cursor: pointer;
+
+    }
+    h4{
+        color: #000;
+    }
+    .btn2{
+        text-align: center;
+        width: 80%;
+        height: 50%;
+        border-style: none;
+        background-color:rgb(255, 255, 255);
+        letter-spacing: 0.3em;
+        font-size: 20px;
+        font-weight: 500;
+        position: relative;
+            top: 6%;
+            left: 0%;
+            transform: translate(0%,0%);
+        /*鼠标放上变成手指*/
+        cursor: pointer;
+    
+        }

@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Aguazyuan",'Courier New', Courier, monospace;
+    /**/
+}
+.all{
+    /*设置页面窗口的宽度*/
+    width:100%;
+    /*设置页面窗口的高度*/
+    height:100%;
+    /*设置页面背景颜色*/
+    background-color: rgb(198, 167, 236);
+    /*设置相对定位position: relative;*/
+    position:fixed ;
+    z-index: -1;
+}
+.header{
+    /*设置页面窗口的宽度*/
+    width:100%;
+    /*设置页面窗口的高度*/
+    height:10%;
+    /*设置页面背景颜色*/
+    background-color: rgba(255, 246, 121, 0.938);
+    /*设置相对定位position: relative;*/
+    position:fixed ;
+    z-index: -1;
+    position: absolute;
+       top: 0%;
+       left: 0dvh;
+       
+}
+
+.title h1{
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    color: #000;
+    transform: translate(7%, 90%);
+    -webkit-text-stroke: 1px #080808;
+}
+.box{
+    width: 95%;
+    height:35%;
+    padding: 7px;
+    color: #fdfdfd;
+    position: absolute;
+       top: 12%;
+       left: 0dvh;
+       transform: translate(0%,0%);
+    /*设置相对all的定位 */
+      
+}
+.box h2{
+    font-size: 30px;
+    color: #fff;
+    /*设置绝对定位*/
+    text-align: center;
+     position: relative;
+       top: 0%;
+       left: 0dvh;
+       transform: translate(0%,0%);
+
+
+}
+.a{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    top: 10%;
+    left: 1%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.b{
+    transition: .7s;
+    overflow: hidden;
+}
+.b:hover{
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+img{
+    width: 150px;
+    height: 100%;
+}
+
+.mixer{
+    width: 100%;
+    height: 35%;
+    color: #fff;
+    position: absolute;
+       top: 50%;
+       left: 0dvh;
+       transform: translate(0%,0%);
+    /*设置绝对position: absolute;定位 */
+
+
+
+}
+.mixer h1{
+    width: 70%;
+    font-size: 20px;
+    left: 10%;
+    letter-spacing: 0.2em;
+    color: #fff;
+        /* 设置绝对定位*/
+    position: relative;
+    top: 6%;
+    left: 5%;
+}
+.mixer h3{
+    font-size: 15px;
+    width: 90%;
+    color: #0c0c0c;
+    text-indent: 2em;
+    position: relative;
+    top: 10%;
+    left: 5%;
+    letter-spacing: 0.1em;
+    line-height: 1.5em ;
+}
+
+.mixer h4{
+    font-size: 15px;
+    position: relative;
+    top: 15%;
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    /*height:10%;设置绝对定位transform: translate(-3%,-50%);*/
+    position: absolute;
+    top: 85%;
+   
+    
+}
+.btn{
+    width: 50%;
+    height: 5vh;
+    background-color: rgb(218, 209, 244);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+    /*鼠标放上变成手指*/
+    cursor: pointer;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;}

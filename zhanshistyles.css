@@ -19,19 +19,20 @@
 }
 
 .content .login-wrapper{
-    width: 62rem;
-    height: 32rem;
+    width: 90%;
+    height: 80%;
     /*设置页面背景颜色*/
     background-color: #fff;
     border-radius: 40px;
-    
-    /*设置绝对定位margin: 10% auto;*/
+    margin: 0 auto;
+    /*设置绝对定位*/
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 45%;
     /*将元素对齐*/
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-46%);
     /*设置弹性布局*/
+
     display: flex;
    
 }
@@ -47,7 +48,7 @@
 .content .login-wrapper .left-img .glass{
     width: 60%;
     padding: 20px;
-    color: #fff;
+    color: #070000;
     /*设置绝对定位*/
    position: absolute;
     top: 20%;
@@ -100,12 +101,15 @@
 .content .login-wrapper .right-login-form{
     flex: 1;
     position: relative;
+    width: 100%;
+    height: 100%;
 }
 .form-wrapper{
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    
 
 
 }
@@ -229,13 +233,27 @@
     border: 0;
     box-shadow: 1px 10px 32px 1px rgba(186, 175,221, 0.37);
  }
+ a{
+    text-decoration: none;}
  /*媒体查询*/
- @media(max-width:1024px){
+ @media(max-width:768px){
     .login-wrapper{
-        padding: 20px;
+        padding: 1%;
+        float: none;
+        margin-left:auto;
+        margin-right:auto;
     }
     .left-img{
         display: none;
+        margin-left:auto;
+        margin-right:auto;
     }
+    .login-wrapper{
+        padding: 1%;
+        float: none;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
 
  }

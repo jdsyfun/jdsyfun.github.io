@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Aguazyuan",'Courier New', Courier, monospace;
+    /**/
+}
+.all{
+    /*设置页面窗口的宽度*/
+    width:100%;
+    /*设置页面窗口的高度*/
+    height:100%;
+        background-color: rgb(198, 167, 236);
+    /*设置相对定位position: relative;*/
+    position:fixed ;
+    z-index: -1;
+    text-align: center;
+}
+.ocean {
+    width: 100%;
+    height: 20%;
+    /*设置页面背景颜色background-color: rgb(204, 204, 238);*/
+    background-image:url(./1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    top: 0%;
+}
+
+.ocean-text {
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    color: #000;
+    transform: translate(5%, 130%);
+    -webkit-text-stroke: 1px #080808;
+}
+.box{
+    width: 80%;
+    height: 58%;
+    /*设置页面背景颜色*/
+    background-color:rgba(225, 225, 225, 0.5);
+    border-radius: 40px;
+   /*设置绝position: relative; 对定位*/
+    position: relative;
+    left: 10%;
+    top: 5%;
+    /*将元素对齐*/
+    transform: translate(0%,0%);
+ 
+}
+.shang{
+    width: 100%;
+    height: 28%;
+    color: #070000;
+    /*设置绝对定位*/
+   position: relative;
+    top: 5%;
+    left: 0%;
+    /*将元素对齐*/
+    transform: translate(0%,0%);
+     
+}
+.shang h1{
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+.zhong{
+    width: 80%;
+    height:72%;
+    /*设置绝对定位*/
+    position: relative;
+    top: 8%;
+    left: 10%;
+
+}
+.zhong h2{
+    font-size: 25px;
+    text-align: left;
+    text-indent: 1em;
+    letter-spacing: 0px;
+    line-height: 1.3em ;
+    
+}
+.xia{
+    width: 100%;
+    height: 22%;
+    text-align: center;
+    position: relative;
+    top: 6%;
+    left: 0%;
+}
+
+.btn{
+    width: 50%;
+    height: 5.5vh;
+    background-color: rgb(218, 209, 244);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    /*鼠标放上变成手指*/
+    cursor: pointer; 
+    position:relative;
+    top: 10%;
+   
+}
+.btn h4{
+    color: #000;
+    letter-spacing: 1rem;
+}
+a{
+    text-decoration: none;}

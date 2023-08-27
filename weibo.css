@@ -1,0 +1,308 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Aguazyuan",'Courier New', Courier, monospace;
+    /**/
+}
+.all{
+    /*设置页面窗口的宽度*/
+    width:100%;
+    /*设置页面窗口的高度*/
+    height:100%;
+    background-color: rgba(202, 202, 202, 0.532);
+    /*设置相对定位position: relative;*/
+    position:fixed ;
+    z-index: -1;
+    text-decoration: none;
+}
+    .shang{
+        width: 100%;
+        height: 8%;
+        margin: 5px,5px;
+        background-color: rgb(255, 255, 255);
+        /*设置页面背景颜色*/
+        display: flex;
+        align-items: center;
+
+
+          
+    }
+        .lianjie{
+            width: 20%;
+            height: 100%;
+            margin: 5px,5px;
+            background-color: rgb(255, 255, 255);
+        
+            }
+            .lianjie h2{
+                font-size: 20px;
+                font-weight: 500;
+                text-align: left;
+                color: #020202;
+                -webkit-text-stroke: 0.7px #080808;
+                letter-spacing: 2px;
+                position: relative;
+                top: 50%;
+                left: 25%;
+                transform: translate(00%, -10%); 
+                    
+            }
+        .title{
+            width: 80%;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            /*设置页面背景颜色*/
+       
+        }
+        .title h1{
+            font-size: 25px;
+            font-weight: 500;
+            color: #000;
+            -webkit-text-stroke: 0.7px #080808;
+            /*设置页面背景颜色*/
+             text-align: left;
+             letter-spacing: 3px;
+             position: relative;
+             top: 40%;
+             left: 20%;
+             transform: translate(00%, -10%); 
+          
+            
+        }
+
+        a{
+            text-decoration: none;
+        }
+        
+    .box{
+        width: 100%;
+        height: 27%;
+        background-color: rgba(202, 202, 202, 0.532);
+        /**/
+        margin-top: 3%;
+        text-align: center;
+    }
+        .zhong1{
+            width: 100%;
+            height: 77%;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            top: 0%;
+            left: 0%;
+            transform: translate(0%, 0%);
+        }
+
+            .tupian1 img{
+                width: 60px;
+                height: 60px;
+                /*设置对齐方式*/
+                vertical-align: middle;
+                /*设置对齐方式*/
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-160%,-75%);
+            }
+            .tupian2 img{
+                width: 60px;
+                height: 60px;
+                /*设置对齐方式*/
+                vertical-align: middle;
+                /*设置对齐方式*/
+                display: inline-block;
+                position: absolute;
+                top:50%;
+                left: 50%;
+                transform: translate(-50%,-75%);
+            }
+            .tupian3 img{
+                width: 60px;
+                height: 60px;
+                /*设置对齐方式*/
+                vertical-align: middle;
+                /*设置对齐方式*/
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 50%; 
+                transform: translate(60%,-75%);
+            }
+            .txt{
+                width: 100%;
+                height: 30%;
+                background-color: rgb(255, 255, 255);
+                text-align: center;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                
+
+            }
+            .txt h1{
+                font-size: 18px;
+                font-weight: 600;
+                color:rgb(133, 126, 126);
+                display: inline-block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-230%,-70%);
+            }
+            .txt h2{
+                font-size: 20px;
+                font-weight: 600;
+                
+                color:rgb(133, 126, 126);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(135%,-70%);
+                
+            }
+        .zhong2{
+            width: 100%;
+            height: 27%;
+            /*设置对齐border-top: solid;
+            border-top-width: 0.5px; 方式*/
+            
+            vertical-align: middle;
+            background-color: rgb(255, 255, 255);
+            position: relative;
+            top: 0%;
+            left: 0%;
+            transform: translate(0%, 7%);
+        }
+        .touxiang{
+            width: 18%;
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+           
+       }
+        .touxiang img {
+            width: 40px;
+            height: 40px;
+            /*设置对齐方式*/
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        .user h1{
+            font-size: 16px;
+            font-weight: 600;
+            color:rgb(133, 126, 126);
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+       
+
+        }
+        .change h2{
+            font-size: 18px;
+            font-weight: 600;
+            color:rgb(255, 187, 0);
+            display: inline-block;
+            position: absolute;
+            top: 50%;
+            left: 77%;
+            transform: translate(-50%, -50%);
+
+        }
+    .box2{
+        width: 100%;
+        height: 70%;
+        background-color: rgba(202, 202, 202, 0.1);
+        /**/
+        margin-top: 8%;
+        
+    }
+    .xia1{
+        width: 100%;
+        height: 10%;
+        top: 0;
+        text-align: center;
+        padding-bottom: 10px;
+        
+    }
+    .btn{
+    text-align: center;
+    width: 80%;
+    height: 80%;
+    background-color: #eab60b;
+    background : linear-gradient( to right,orange 40%,#fdc201,#ffcc00);
+    border-radius: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+        top: 20%;
+        left: 0%;
+        transform: translate(0%,0%);
+    /*鼠标放上变成手指*/
+    cursor: pointer;
+
+    }
+    .btn h4{
+        font-size: 25px;
+        font-weight: 500;
+        color: #ffffff;
+
+    }
+    .xia2{
+        margin-top: 1%;
+        width: 100%;
+        height: 75%;
+      
+       
+    }
+
+    .xia2 h1{
+        width: 80%;
+        font-size: 15px;
+        font-weight: 550;
+        color:rgb(105, 102, 102);
+        text-align: left;
+        position: relative;
+        top: 5%;
+        left: 10%;
+        transform: translate(0%,00%);
+    }
+    .xia2 h2{
+        width: 80%;
+        font-size: 15px;
+        font-weight: 550;
+        color:rgb(105, 102, 102);
+        text-align: left;
+        position: relative;
+        top: 8%;
+        left: 10%;
+        transform: translate(0%,10%);
+    }
+    .xia2 img{
+        width: 18px;
+        height: 18px;
+        text-align: left;
+        position: relative;
+        top: 12%;
+        left: 10%;
+        transform: translate(0%,30%);
+    }
+    .xia2 h3{
+        width: 80%;
+        font-size: 13px;
+        font-weight: 550;
+        color:rgb(105, 102, 102);
+        text-align: left;
+        position: relative;
+        top: 8%;
+        left: 17%;
+        transform: translate(0%,10%);
+    }
+
+

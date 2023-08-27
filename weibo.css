@@ -10,7 +10,7 @@
     width:100%;
     /*设置页面窗口的高度*/
     height:100%;
-    background-color: rgba(128, 128, 128, 0.3);
+    background-color: rgba(228, 223, 223, 0.443);
     /*设置相对定位position: relative;*/
     position:fixed ;
     z-index: -1;
@@ -78,7 +78,7 @@
     .box{
         width: 100%;
         height: 27%;
-        background-color: rgba(128, 128, 128, 0.3);
+        background-color: rgba(228, 223, 223, 0.5);
         /**/
         margin-top: 3%;
         text-align: center;

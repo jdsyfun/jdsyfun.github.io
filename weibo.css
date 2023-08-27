@@ -10,7 +10,7 @@
     width:100%;
     /*设置页面窗口的高度*/
     height:100%;
-    background-color: rgba(202, 202, 202, 0.532);
+    background-color: rgba(128, 128, 128, 0.3);
     /*设置相对定位position: relative;*/
     position:fixed ;
     z-index: -1;
@@ -78,7 +78,7 @@
     .box{
         width: 100%;
         height: 27%;
-        background-color: rgba(202, 202, 202, 0.532);
+        background-color: rgba(128, 128, 128, 0.3);
         /**/
         margin-top: 3%;
         text-align: center;
@@ -218,7 +218,7 @@
     .box2{
         width: 100%;
         height: 70%;
-        background-color: rgba(202, 202, 202, 0.1);
+        
         /**/
         margin-top: 8%;
         
@@ -240,6 +240,7 @@
     border-radius: 60px;
     font-size: 23px;
     font-weight: 400;
+    border-style: none;
     position: relative;
         top: 20%;
         left: 0%;
@@ -258,7 +259,7 @@
         margin-top: 1%;
         width: 100%;
         height: 75%;
-      
+        
        
     }
 

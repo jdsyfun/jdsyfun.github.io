@@ -9,7 +9,7 @@
     width:100%;
     /*设置页面窗口的高度*/
     height:100%;
-        background-color: rgb(198, 167, 236);
+    background-color: rgb(195, 205, 244);
     /*设置相对定位position: relative;*/
     position:fixed ;
     z-index: -1;
@@ -96,9 +96,11 @@
 .btn{
     width: 50%;
     height: 5.5vh;
-    background-color: rgb(218, 209, 244);
+    background-color: rgb(171, 187, 238);
     border-radius: 10px;
+    border: none;
     color: #fff;
+    
     font-size: 15px;
     /*鼠标放上变成手指*/
     cursor: pointer; 

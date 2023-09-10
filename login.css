@@ -10,7 +10,7 @@
     /*设置页面窗口的高度*/
     height:100%;
     /*设置页面背景颜色*/
-    background-color: rgb(198, 167, 236);
+    background-color: rgb(195, 205, 244);
     /*设置相对定位position: relative;*/
     position:fixed ;
     z-index: -1;
@@ -21,7 +21,7 @@
     /*设置页面窗口的高度*/
     height:10%;
     /*设置页面背景颜色*/
-    background-color: rgba(255, 246, 121, 0.938);
+    background-color: rgba(245, 239, 158, 0.938);
     /*设置相对定位position: relative;*/
     position:fixed ;
     z-index: -1;
@@ -44,6 +44,7 @@
     height:35%;
     padding: 7px;
     color: #fdfdfd;
+    background-color: rgb(195, 205, 244);
     position: absolute;
        top: 12%;
        left: 0dvh;
@@ -95,7 +96,7 @@ img{
        left: 0dvh;
        transform: translate(0%,0%);
     /*设置绝对position: absolute;定位 */
-
+text-align: center;
 
 
 }
@@ -105,19 +106,22 @@ img{
     left: 10%;
     letter-spacing: 0.2em;
     color: #fff;
-        /* 设置绝对定位*/
+   text-align: left;
+    /* 设置绝对定位*/
     position: relative;
     top: 6%;
     left: 5%;
 }
 .mixer h3{
-    font-size: 15px;
-    width: 90%;
+    font-size: 16px;
+    width: 88%;
+    font-weight: 400;
     color: #0c0c0c;
+   text-align: left;
     text-indent: 2em;
     position: relative;
-    top: 10%;
-    left: 5%;
+    top: 8%;
+    left: 6%;
     letter-spacing: 0.1em;
     line-height: 1.5em ;
 }
@@ -142,14 +146,19 @@ img{
 .btn{
     width: 50%;
     height: 5vh;
-    background-color: rgb(218, 209, 244);
+    background-color: rgb(171, 187, 238);
     border-radius: 10px;
+    border: none;
     color: #fff;
     font-size: 18px;
     margin: 10px 0;
     /*鼠标放上变成手指*/
     cursor: pointer;
     vertical-align: middle;
+}
+.btn h1{
+    color: #393939;
+    font-size: 20px; 
 }
 a{
     text-decoration: none;}

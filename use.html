@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport"content="width=device-width, height=device-height,initial-scale=1.0,minimum-scale=1,maxium-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable"content="yes">
+<meta name="apple-touch-fullscreen"content="yes">
+<meta name="apple-mobile-web-app-status-bar-style"content="black">
+<title>use</title>
+<style>
+* {
+padding: 0;
+margin: 0;
+
+}
+    
+body {
+    /*设置页面窗口的宽度*/
+    width:100%;
+    /*设置页面窗口的高度*/
+    height:100%;
+    background-color:rgb(225, 225, 225);
+    /*设置相对定位position: relative;*/
+    position:fixed ;
+    z-index: -1;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    overflow: hidden;
+    background-image:url(use背景.jpg);
+
+}
+.ocean {
+    width: 100%;
+    height: 14%;
+    /*设置页面背景颜色*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+    .ocean-text {
+    font-size: 35px;
+    font-weight: 400;
+    position: relative;
+    color: #686868;   
+    -webkit-text-stroke: 1px #ffffff;
+}
+
+.box1 {
+width: 100%;
+height: 100%;
+position: relative;
+text-align: center;
+
+}
+.title {
+    width: 100%;
+    position: relative;
+    top:3%;
+    transform: translate(0,0%);
+    left: 30px;
+}
+
+.title h5 {
+    text-align:left ;
+    font-size: 20px;
+    font-weight: 350;
+    text-align:left;
+    color: #f5f7fa;
+
+}
+.txt{
+    width: 86%;
+    height: 77%;
+    /*设置页面背景颜色*/
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 40px;
+    /*设置绝position: relative; 对定位*/
+    position: relative;
+    left: 8%;
+    top: 4%;
+    /*设置弹性布局*/
+    display: flex;
+}
+.article h1 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #000000;
+    
+}
+.article h2{
+    text-align:left ;
+    font-size: 17px;
+    font-weight: 400;
+    text-align:left;
+    text-indent: 2em;
+    margin-bottom: 55px;
+    color:#000;
+    margin: 10px 10px ;
+}
+.article h3{
+    text-align:left ;
+    font-size: 15px;
+    font-weight: 400;
+    text-align:left;
+    margin-bottom: 2px;
+    color: #000;
+}
+
+.btn {
+width: 65%;
+height: 35px;
+background-color:rgba(243, 240, 240, 0.5);
+
+border-radius: 40px;
+border: none;
+color: #fff;
+font-size: 20px;
+/*鼠标放上变成手指margin: 10px 0;*/
+cursor: pointer;
+position:relative;
+top: 10%;
+left: 0%;
+transform: translate(0%,0%);     
+}
+.btn h1 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align:center;
+    color: #494848;   
+}
+a{
+    text-decoration: none;}
+
+
+</style>
+</head>
+
+<body>
+
+    <div class="ocean">
+        <div class="ocean-text">
+            <h1>use</h1>
+        </div>
+    </div>
+    <div class="box1">
+        <div class="txt">
+            <div class="article">
+                <h1>欢迎使用use！</h1>
+                <h2>USE重视并按照法律要求保护您的个人信息与隐私，详见USE提供的隐私政策。为方便您使用，现将隐私政策中部分个人信息使用目的展示如下。</h2>
+                <h2>在满足用户基本功能需求与保证USE正常业务运营外， USE收集信息的目的还包括如：用于预防损失与欺诈等目的的安全保障，用于遵守法律法规、以及满足政府部门依法提出的要求(如实名制等)。用于维护国家执法、安全或具有公众重要性的其他事宜等。</h2>
+                <h2>USE承诺只收集为实现具体、合法、特定目的所需要的信息，且不会用于未承诺的其他目的。您有权选择是否提供个人信息，但如果您选择拒绝，我们可能无法向您提供相应的服务。</h2>
+            </div>
+        </div>
+                        
+        <button class="btn"> <a href="shouquan.html"><h1>我已知晓</h1></a></a></button>
+    </div>
+    
+
+</body>
+
+<script>
+    const left = document.querySelector(".left")
+    const right = document.querySelector(".right")
+    const main = document.querySelector(".main")
+    var index = 0
+    function add() {
+        if (index < 1) {
+            index = 2
+        } else {
+            index--
+        }
+    }
+    function desc() {
+        if (index > 1) {
+            index = 0
+        } else {
+            index++
+        }
+    }
+    function position() {
+        main.style.left = (index * -100) + "%" 
+    }
+    left.addEventListener("click", () => {
+        add()
+        position()
+        console.log(index)
+    }) 
+    right.addEventListener("click", () => {
+        desc()
+        position()
+        console.log(index)
+    }) 
+
+</script>
+
+</html>
